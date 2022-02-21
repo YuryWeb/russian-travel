@@ -1,0 +1,9 @@
+.foto-grid__list {
+  display: grid;
+  gap: 14px 14px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* grid-template-rows: repeat(3, 1fr); оставляем только указание кол-ва колонок */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

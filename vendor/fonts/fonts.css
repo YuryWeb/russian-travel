@@ -1,0 +1,28 @@
+/* подключение шрифта Inter в начертании Regular */
+
+@font-face {
+  src: url("../../vendor/fonts/inter/Inter-Regular.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Regular.woff") format("woff");
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* подключение полужирного начертания Inter-Bold */
+
+@font-face {
+  src: url("../../vendor/fonts/inter/Inter-Bold.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Bold.woff") format("woff");
+  font-family: "Inter";
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../../vendor/fonts/inter/Inter-Black.woff2") format("woff2"),
+    url("../../vendor/fonts/inter/Inter-Black.woff") format("woff");
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}

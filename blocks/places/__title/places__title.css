@@ -1,0 +1,12 @@
+.places__title {
+  min-width: 440px;
+  min-height: 152px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px; /* or 106% */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}

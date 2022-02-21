@@ -1,0 +1,12 @@
+.cover__background {
+  background-image: url(../../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+  max-width: 100%;
+  min-height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

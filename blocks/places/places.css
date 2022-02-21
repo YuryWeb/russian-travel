@@ -1,0 +1,7 @@
+.places {
+  min-height: 3292px;
+  min-height: 928px;
+  margin: auto 48px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
