@@ -1,9 +1,0 @@
-.places__content-block {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 440px 1fr;
-  grid-template-rows: 2fr;
-  gap: 0 32px;
-}

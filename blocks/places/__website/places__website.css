@@ -1,4 +1,4 @@
-.places__website {
+/* .places__website {
   max-width: 456px;
   min-height: 46px;
   width: 100%;
@@ -6,4 +6,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-end;
+} */
+
+.places__website {
+  max-width: 456px;
+  min-height: 46px;
+  width: 100%;
+  align-self: end;
+  margin: 0;
+  padding: 0;
 }
