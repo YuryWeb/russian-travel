@@ -1,0 +1,49 @@
+/* Формирование эффекта overlay */
+/* Базовый стиль для фрейма 1280px */
+
+.cover__link-main {
+  text-decoration: none;
+  max-width: 1184px;
+  min-height: 740px;
+  /*  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.cover__link-main::before {
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: opacity 1.2s linear;
+}
+
+.cover__link-main:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link-main {
+    /* max-width: 1024px; */
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link-main {
+    /* max-width: 768px;*/
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link-main {
+    /* max-width: 320px; */
+    min-height: 200px;
+  }
+}

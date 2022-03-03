@@ -1,8 +1,50 @@
+/* Базовый стиль для фрейма 1280px */
+
 .places {
-  min-height: 3292px;
-  max-width: 928px;
-  margin: auto 48px;
-  padding: 0;
-  border: 1px solid blue;
+  max-width: 100%; /* 984px */
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 148px;
+  border: 1px solid blue;
 }
+
+@media screen and (max-width: 1279px) {
+  .places {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0;
+  }
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+  }
+}
+*/

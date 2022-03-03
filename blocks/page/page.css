@@ -1,11 +1,15 @@
 .page {
-  width: 1024px; /* фрейм 1024px */
+  max-width: 1280px; /*  максимальная ширина фрейма, еще типы 1024px, 768px  */
+  /* выше установили ограничение по максимальной ширине */
 
-  /* max-width: 1600px;    выше установили ограничение по максимальной ширине */
-  min-height: 6895px;
+  min-width: 320px;
 
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+  margin: 0 auto; /* для экранов больше 1280px отцентрировали весь контент */
+
+  /* Отступы перенесены в header и footer
+  padding-top: 28px;
+  padding-bottom: 24px; */
+
   font-family: "Inter", "Arial", sans-serif;
   background-color: #2a2c2f;
 
@@ -13,10 +17,21 @@
   * Сглаживание шрифтов для всей страницы, подробнее об этом —
   * в уроках про адаптацию страницы под различные устройства
   */
-  -webkit-font-smoothing: antialiased;
+
+  /* сглаживание шрифтов в Firefox и браузерах на движке Webkit (Яндекс.Браузер, Google Chrome, Opera, Safari) */
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* правила для масштабирования шрифтов */
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  /* рендеринг  */
+  text-rendering: optimizeLegibility;
+
+  /* Еще пример с тренажера, css, формы */
+
   -ms-font-feature-settings: "kern" 1;
   font-feature-settings: "kern";
 }

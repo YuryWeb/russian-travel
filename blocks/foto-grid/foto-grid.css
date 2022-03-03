@@ -1,9 +1,31 @@
+/* базовый фрейм 1280px */
+
 .foto-grid {
-  max-width: 928px;
+  max-width: 1184px;
+  margin: 0 auto 92px;
   /* min-height: 942px; Пока убираю высоту */
-  margin: 92px 48px;
 
   /* box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; */
+}
+
+@media screen and (max-width: 1024px) {
+  .foto-grid {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .foto-grid {
+    max-width: 720px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .foto-grid {
+    max-width: 288px;
+    margin: 0 auto 64px;
+  }
 }

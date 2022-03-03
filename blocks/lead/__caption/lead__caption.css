@@ -1,12 +1,28 @@
+/* Базовый стиль для фрейма 1280px */
+
 .lead__caption {
+  min-width: 158px; /* одинаковое значение для 1280 и 1024 */
+  /* min-height: 14px; */
   margin-top: 8px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  /* line-height: 14px;  identical to box height, or 140% */
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #ffffff;
-  min-width: 158px;
-  height: 14px;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+    border: solid 1px #df4949;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 16px;
+    border: solid 1px #df4949;
+  }
 }

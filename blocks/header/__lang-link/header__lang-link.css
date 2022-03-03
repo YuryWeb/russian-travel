@@ -1,5 +1,17 @@
+/* базовый фрейм 1280px */
+
 .header__lang-link {
-  max-width: 30px;
-  max-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
   color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
 }

@@ -1,13 +1,28 @@
+/* Базовый стиль для фрейма 1280px */
+
 .places__url-heading {
   width: 100%;
-  min-width: 456px;
-  min-height: 12px;
-  margin: 0;
+  max-width: 456px;
+  /* min-height: 12px; */
+  margin: 0 0 12px 0;
   padding: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 12px; /* identical to box height, or 100% */
+  line-height: 170%; /* or 20px */
   letter-spacing: 2px;
   color: #aaaaaa;
+}
+
+/* @media screen and (max-width: 767px) {
+  .places__url-heading {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}*/
+
+@media screen and (max-width: 320px) {
+  .places__url-heading {
+    margin-left: 16px;
+  }
 }

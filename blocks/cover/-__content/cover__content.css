@@ -1,0 +1,26 @@
+/* Базовый стиль для фрейма 1280px */
+
+.cover__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__content {
+    margin: auto 232px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__content {
+    margin: auto 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__content {
+    margin: auto 16px;
+  }
+}

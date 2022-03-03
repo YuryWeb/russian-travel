@@ -9,10 +9,17 @@
 } */
 
 .places__website {
-  max-width: 456px;
-  min-height: 46px;
+  /* max-width: 456px;
+  min-height: 46px; */
   width: 100%;
   align-self: end;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    grid-row: 2;
+    grid-column: 1/2;
+  }
 }

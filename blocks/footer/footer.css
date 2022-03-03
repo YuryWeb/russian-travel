@@ -1,0 +1,29 @@
+/* базовый фрейм 1280px */
+
+.footer {
+  max-width: 1280px; /* макс.ширина */
+  /* max-width: 1184px; - ширина футера по макету 1280*/
+  margin: 92px auto 0;
+  padding: 0 48px 24px 48px;
+  /* padding: 0 0 24px 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: solid 1px #a33333;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 88px auto 0;
+    padding: 0 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
+    margin-top: 64px;
+    /* margin: 64px 118px 0 16px; */
+    /* max-width: 186px; */
+    flex-wrap: wrap;
+  }
+}

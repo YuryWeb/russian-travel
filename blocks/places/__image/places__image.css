@@ -1,11 +1,10 @@
+/* Базовый стиль для фрейма 1280px */
+
 .places__image {
-  width: 440px;
-  height: 440px;
+  width: 100%;
   margin: 0;
+  padding: 0;
   object-fit: cover;
-  object-position: left top;
+  object-position: center;
   display: block;
-  /* grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3; */
 }

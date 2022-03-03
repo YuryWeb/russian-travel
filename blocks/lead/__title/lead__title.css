@@ -1,14 +1,23 @@
+/* Базовый стиль для фрейма 1280px */
+
 .lead__title {
-  max-width: 720px;
-  max-height: 200px;
+  max-width: 720px; /* ширина по макету 720px, отступы по 132px */
   font-size: 96px;
   font-weight: 900;
-  line-height: 100px; /* Высота строки */
+  line-height: 100px;
   font-style: normal;
-  letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  margin: 0; /* Включая сброс стандартных отступов параграфа с других сторон */
-  padding: 0; /* Сброс стандартных отступов параграфа */
+  padding: 0;
   margin: 0 auto 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    /* 1280 1024 768 - размеры title одинаковы */
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 16px;
+  }
 }

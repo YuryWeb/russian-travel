@@ -1,0 +1,19 @@
+/* базовый фрейм 1280px */
+
+.footer__copyright {
+  max-width: 186px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    text-align: left;
+    align-items: flex-start;
+  }
+}

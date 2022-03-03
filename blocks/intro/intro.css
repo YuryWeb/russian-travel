@@ -1,14 +1,31 @@
+/* базовый фрейм 1280px */
+
 .intro {
-  width: 690px;
+  max-width: 690px;
   min-height: 429px;
-  margin: 92px 286px 92px 48px;
-  font-size: 54px;
-  line-height: 58px; /* Высота строки */
-  font-weight: 900;
-  color: #ffffff;
-  background: #2a2c2f;
-  padding: 0; /* Сброс стандартных отступов параграфа */
+  margin: 92px 442px 92px 148px;
+  padding: 0;
   align-self: center;
-  z-index: 1;
   border: solid 1px #5349df;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    min-height: 754px;
+    margin: 64px 16px;
+  }
 }

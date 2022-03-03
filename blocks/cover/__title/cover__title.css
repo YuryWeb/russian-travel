@@ -1,12 +1,21 @@
+/* Базовый стиль для фрейма 1280px */
+
 .cover__title {
-  margin: 0 auto;
-  min-width: 560px;
-  min-height: 152px;
+  max-width: 560px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px; /* or 106% */
   text-align: center;
+  margin: 0 0 32px 0;
   color: #ffffff;
-  z-index: 3;
+  position: relative;
+}
+
+@media screen and (max-width: 560px) {
+  .cover__title {
+    max-width: 288px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 35px; /* or 109% */
+  }
 }
