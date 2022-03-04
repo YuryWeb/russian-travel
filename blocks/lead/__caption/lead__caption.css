@@ -16,13 +16,13 @@
 @media screen and (max-width: 1023px) {
   .lead__caption {
     margin-left: 24px;
-    border: solid 1px #df4949;
+    /* border: solid 1px #df4949; - рамка для проверки*/
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 16px;
-    border: solid 1px #df4949;
+    /* border: solid 1px #df4949; - рамка для проверки*/
   }
 }

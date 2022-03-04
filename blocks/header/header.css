@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid 1px #a33333;
+  /* border: solid 1px #a33333; - рамка для проверки*/
 }
 
 @media screen and (max-width: 1024px) {

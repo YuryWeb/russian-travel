@@ -1,18 +1,13 @@
 /* Базовый стиль для фрейма 1280px */
 
 .cover {
-  /* width: calc(100%-96px);
-  height: 100%;
-  max-width: 1184px;
+  max-width: 1280px; /* ширина изображения для 1280px, max-width: 1184px; убрал */
   /* min-height: 740px; */
-  /* margin: 0 auto;
-   position: relative; */
-
-  max-width: 1280px; /* ширина изображения для 1280px */
+  /* margin: 0 auto; */
   width: 100%;
   padding: 0 48px 0 48px; /* отступы только для 1280px */
   box-sizing: border-box;
-  border: solid 1px #18d661;
+  /* border: solid 1px #18d661; - рамка для проверки*/
   position: relative;
 }
 

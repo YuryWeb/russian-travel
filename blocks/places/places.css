@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 148px;
-  border: 1px solid blue;
+  /* border: 1px solid blue;- рамка для проверки*/
 }
 
 @media screen and (max-width: 1279px) {

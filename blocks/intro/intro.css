@@ -6,7 +6,7 @@
   margin: 92px 442px 92px 148px;
   padding: 0;
   align-self: center;
-  border: solid 1px #5349df;
+  /* border: solid 1px #5349df; - рамка для проверки*/
 }
 
 @media screen and (max-width: 1024px) {
